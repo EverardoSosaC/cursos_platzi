@@ -51,3 +51,7 @@ h1{
     
     display: block;
 }
+
+#main-nav .blog{
+    background-color: red;
+}

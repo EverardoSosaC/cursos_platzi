@@ -1,0 +1,9 @@
+/* h2 + p{
+    color: red;  //Con este pintamos de rojo los p que esten cerca de un h2
+} */
+
+h2 ~ p{
+    color: red;  /*Este pinta todos los p mientras esten a la altura de un h2, sin
+                    importar si no estan juntos, mientras exista un h2 y un p en la misma linea
+                    lo va a cambiar, ya si un p esta solo en un div, no cambiara*/
+}
